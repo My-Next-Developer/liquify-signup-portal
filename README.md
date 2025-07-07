@@ -17,7 +17,7 @@ This is a document upload and user management portal that allows users to:
 #### Login Form
 <img width="2056" alt="Screenshot 2025-07-07 at 21 07 26" src="https://github.com/user-attachments/assets/1df0d57c-80e4-4b20-9ac1-cb8f7da2e387" />
 
-#### Signup Form Form
+#### Signup Form
 <img width="2056" alt="Screenshot 2025-07-07 at 21 07 50" src="https://github.com/user-attachments/assets/e821f4cb-36ef-4b3a-a94e-3b3596176109" />
 
 #### Dashboard
