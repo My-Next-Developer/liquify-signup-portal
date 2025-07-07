@@ -117,13 +117,13 @@ liquify-signup-portal/
 │   │   ├── App.tsx                   # Main application component
 │   │   └── main.tsx                  # Application entry point
 │   ├── .gitignore                    # Git ignore rules
-│   ├── eslint.config.js               # ESLint configuration
+│   ├── eslint.config.js              # ESLint configuration
 │   ├── index.html                    # HTML entry point
 │   ├── package.json                  # Frontend dependencies
-│   ├── postcss.config.mjs             # PostCSS configuration
-│   ├── tailwind.config.js             # Tailwind CSS configuration
-│   ├── tsconfig.json                  # TypeScript configuration
-│   └── vite.config.ts                 # Vite configuration
+│   ├── postcss.config.mjs            # PostCSS configuration
+│   ├── tailwind.config.js            # Tailwind CSS configuration
+│   ├── tsconfig.json                 # TypeScript configuration
+│   └── vite.config.ts                # Vite configuration
 ├── venv/                             # Python virtual environment
 └── README.md                         # This file
 ```
