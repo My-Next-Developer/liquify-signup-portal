@@ -1,16 +1,16 @@
 # Liquify Signup Portal
 
-A full-stack web application for user registration and document management with a modern React frontend and Django REST API backend.
+A full-stack web application for user registration and document management with a React frontend and Django REST API backend.
 
-## 🏗️ Project Overview
+## Project Overview
 
 This is a document upload and user management portal that allows users to:
 - Register and authenticate
-- Upload various types of documents (passport, proof of address, ID card, driver's license)
+- Upload various types of documents
 - View their application status with push-back messages
 - Manage uploaded documents
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **React** with TypeScript
@@ -29,7 +29,7 @@ This is a document upload and user management portal that allows users to:
 - **CORS** support for cross-origin requests
 - **File upload handling** with media storage
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 liquify-signup-portal/
@@ -67,7 +67,7 @@ liquify-signup-portal/
 │   │   │   └── AuthContext.tsx       # Authentication context
 │   │   ├── lib/                      # Utility libraries
 │   │   │   ├── api.ts                # API client configuration
-│   │   │   ├── config.ts              # Configuration constants
+│   │   │   ├── config.ts             # Configuration constants
 │   │   │   ├── error-handler.ts      # Error handling utilities
 │   │   │   └── utils.ts              # General utilities
 │   │   ├── pages/                    # Page components
@@ -80,14 +80,14 @@ liquify-signup-portal/
 │   │   ├── main.tsx                  # Application entry point
 │   │   └── index.css                 # Global styles
 │   ├── package.json                  # Frontend dependencies
-│   ├── tailwind.config.js             # Tailwind CSS configuration
-│   ├── tsconfig.json                  # TypeScript configuration
-│   └── vite.config.ts                 # Vite configuration
+│   ├── tailwind.config.js            # Tailwind CSS configuration
+│   ├── tsconfig.json                 # TypeScript configuration
+│   └── vite.config.ts                # Vite configuration
 ├── venv/                             # Python virtual environment
 └── README.md                         # This file
 ```
 
-## 🗄️ Database Models
+## Database Models
 
 ### CustomUser
 - Extends Django's AbstractUser
@@ -103,7 +103,7 @@ liquify-signup-portal/
 - `uploaded_at`: Upload timestamp
 - `is_deleted`: Soft delete flag
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /auth/login/` - User login
@@ -115,11 +115,11 @@ liquify-signup-portal/
 - `POST /documents/` - Upload new document
 - `PATCH /documents/{id}/delete/` - Soft delete document
 
-### 📚 API Documentation
+### API Documentation
 For detailed API documentation with examples and testing capabilities, visit:
 **[Postman API Documentation](https://documenter.getpostman.com/view/11277968/2sB34cq3kV)**
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Backend Setup
 
@@ -188,7 +188,7 @@ The frontend will be available at `http://localhost:5173`
 - Routing: React Router with protected routes
 - Styling: Tailwind CSS with custom components
 
-## 🎨 Features
+## Features
 
 ### User Management
 - User registration and authentication
@@ -212,7 +212,7 @@ The frontend will be available at `http://localhost:5173`
 - File upload validation
 - Protected routes on frontend
 
-## 🔧 Admin Features
+## Admin Features
 
 ### Django Admin Interface
 The application includes a comprehensive Django admin interface for managing users and documents.
@@ -260,7 +260,7 @@ The application includes a comprehensive Django admin interface for managing use
    - Navigate to `http://localhost:8000/admin/`
    - Login with your superuser credentials
 
-## 🤔 Development Assumptions
+## Development Assumptions
 
 ### Design Decisions & Deviations
 
