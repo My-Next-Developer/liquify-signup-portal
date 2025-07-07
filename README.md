@@ -10,6 +10,27 @@ This is a document upload and user management portal that allows users to:
 - View their application status with push-back messages
 - Manage uploaded documents
 
+## Screenshots
+
+### User Portal
+
+<img width="2056" alt="Screenshot 2025-07-07 at 21 07 26" src="https://github.com/user-attachments/assets/1df0d57c-80e4-4b20-9ac1-cb8f7da2e387" />
+
+<img width="2056" alt="Screenshot 2025-07-07 at 21 07 38" src="https://github.com/user-attachments/assets/aebc20ca-3dbb-4cd0-aad7-e3ae17ec6d58" />
+
+<img width="2056" alt="Screenshot 2025-07-07 at 21 07 50" src="https://github.com/user-attachments/assets/e821f4cb-36ef-4b3a-a94e-3b3596176109" />
+
+### Admin Portal
+
+<img width="2056" alt="Screenshot 2025-07-07 at 21 08 31" src="https://github.com/user-attachments/assets/57a8df21-418d-4510-b963-cca8ab989164" />
+
+<img width="2056" alt="Screenshot 2025-07-07 at 21 08 38" src="https://github.com/user-attachments/assets/c7df6858-3a61-42c1-911b-1225824f416f" />
+
+<img width="2056" alt="Screenshot 2025-07-07 at 21 08 50" src="https://github.com/user-attachments/assets/7a37a426-b521-4b34-950f-39d4806a79eb" />
+
+<img width="2056" alt="Screenshot 2025-07-07 at 21 09 04" src="https://github.com/user-attachments/assets/ab1fe04d-8d9c-4bf6-8fcd-8f63ba257e25" />
+
+
 ## Technology Stack
 
 ### Frontend
