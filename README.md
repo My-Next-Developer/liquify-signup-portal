@@ -84,9 +84,19 @@ liquify-signup-portal/
 │   └── manage.py                     # Django management script
 ├── frontend/                         # React frontend application
 │   ├── public/                       # Static assets
+│   │   ├── favicon.png               # Application favicon
 │   ├── src/                          # Source code
+│   │   ├── assets/                   # Static assets
+│   │   │   └── logo.svg              # Application logo
 │   │   ├── components/               # Reusable UI components
-│   │   │   ├── ui/                   # Base UI components (buttons, inputs, etc.)
+│   │   │   ├── ui/                   # ShadCN UI components
+│   │   │   │   ├── badge.tsx         # Badge component
+│   │   │   │   ├── button.tsx        # Button component
+│   │   │   │   ├── error-message.tsx # Error message component
+│   │   │   │   ├── input.tsx         # Input component
+│   │   │   │   ├── label.tsx         # Label component
+│   │   │   │   ├── select.tsx        # Select component
+│   │   │   │   └── tooltip.tsx       # Tooltip component
 │   │   │   ├── FormUpload.tsx        # Document upload component
 │   │   │   ├── NavBar.tsx            # Navigation component
 │   │   │   ├── PageLayout.tsx        # Page layout wrapper
@@ -105,12 +115,15 @@ liquify-signup-portal/
 │   │   ├── utils/                    # Utility components
 │   │   │   └── PrivateRoute.tsx      # Protected route wrapper
 │   │   ├── App.tsx                   # Main application component
-│   │   ├── main.tsx                  # Application entry point
-│   │   └── index.css                 # Global styles
+│   │   └── main.tsx                  # Application entry point
+│   ├── .gitignore                    # Git ignore rules
+│   ├── eslint.config.js               # ESLint configuration
+│   ├── index.html                    # HTML entry point
 │   ├── package.json                  # Frontend dependencies
-│   ├── tailwind.config.js            # Tailwind CSS configuration
-│   ├── tsconfig.json                 # TypeScript configuration
-│   └── vite.config.ts                # Vite configuration
+│   ├── postcss.config.mjs             # PostCSS configuration
+│   ├── tailwind.config.js             # Tailwind CSS configuration
+│   ├── tsconfig.json                  # TypeScript configuration
+│   └── vite.config.ts                 # Vite configuration
 ├── venv/                             # Python virtual environment
 └── README.md                         # This file
 ```
